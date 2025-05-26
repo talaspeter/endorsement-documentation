@@ -10,7 +10,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
+  title: 'Endorsement documentation',
   tagline: 'Dinosaurs are cool',
   favicon: 'img/favicon.ico',
 
@@ -88,6 +88,12 @@ const config = {
             position: 'left',
             label: 'Tutorial',
           },
+          {
+        type: 'docSidebar',
+        sidebarId: 'guideSidebar',
+        position: 'left',
+        label: 'Guides',
+          },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/facebook/docusaurus',
@@ -103,8 +109,8 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Tutorialss',
+                to: '/docs/tutorials/intro',
               },
             ],
           },

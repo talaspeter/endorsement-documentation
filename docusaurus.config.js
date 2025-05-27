@@ -158,6 +158,10 @@ const config = {
                 label: 'X',
                 href: 'https://x.com/docusaurus',
               },
+              {
+                label: 'GitHub',
+                href: 'https://github.com/community',
+              },
             ],
           },
           {
@@ -174,7 +178,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Peter Project, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,

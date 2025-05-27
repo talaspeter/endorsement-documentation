@@ -109,13 +109,13 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorials',
+            label: 'Tutorial',
           },
           {
         type: 'docSidebar',
         sidebarId: 'guideSidebar',
         position: 'left',
-        label: 'Guides',
+        label: 'Guide',
           },
           {
         type: 'docSidebar', // Ha külön oldalsávot használsz az API-hoz
